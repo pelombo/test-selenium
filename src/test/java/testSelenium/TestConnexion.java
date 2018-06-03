@@ -9,6 +9,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.util.concurrent.TimeUnit;
 
+import static org.junit.Assert.assertEquals;
+
 public class TestConnexion {
 
     private WebDriver driver;
@@ -42,7 +44,7 @@ public class TestConnexion {
         driver.findElement(By.id("menu_documentation")).click();
         driver.findElement(By.linkText("Selenium WebDriver")).click();
 
-        // assertEquals("test",driver.getTitle());
+        assertEquals("Selenium WebDriver — Selenium Documentation",driver.getTitle());
 
 
     }
