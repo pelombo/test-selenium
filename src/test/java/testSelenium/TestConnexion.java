@@ -38,7 +38,7 @@ public class TestConnexion {
     public void testConnexion () throws Exception {
 
         baseUrl = "http://www.seleniumhq.org";
-        driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(45,TimeUnit.SECONDS);
         driver.get(baseUrl + "/");
 
         driver.findElement(By.id("menu_documentation")).click();
