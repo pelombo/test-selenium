@@ -1,0 +1,20 @@
+pipeline {
+    agent any
+    tools {
+        maven 'blaise' 
+    }
+    stages {
+        
+        stage('Préparation') {
+            steps {
+                git 'https://github.com/pelombo/test-selenium.git'    
+            }
+        }
+        stage('Exécution des tests') {
+            steps {
+               //sh 'export DISPLAY=:0'
+                sh 'mvn clean test'
+            }
+        }
+    }
+}
