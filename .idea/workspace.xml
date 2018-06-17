@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="807a1445-64ab-431f-bea2-97ced7cef607" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testSelenium/TestConnexion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testSelenium/TestConnexion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-testSelenium.TestConnexion.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-testSelenium.TestConnexion.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testSelenium.TestConnexion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testSelenium.TestConnexion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testSelenium/TestConnexion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testSelenium/TestConnexion.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,8 +28,8 @@
       <file leaf-file-name="TestConnexion.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/testSelenium/TestConnexion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="50" column="52" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="52" />
+            <state relative-caret-position="181">
+              <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -358,15 +354,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1375" height="876" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.39277652" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32858992" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32988358" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32858992" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32988358" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25282168" />
@@ -501,8 +496,8 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/testSelenium/ConnexionPage.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/testSelenium/TestConnexion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" column="52" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="52" />
+        <state relative-caret-position="181">
+          <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
