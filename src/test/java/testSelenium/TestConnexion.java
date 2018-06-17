@@ -29,6 +29,7 @@ public class TestConnexion {
         //WebDriver driver = new FirefoxDriver(options);
 
 
+
         driver = new FirefoxDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
@@ -47,7 +48,7 @@ public class TestConnexion {
     public void testConnexion () throws Exception {
 
         baseUrl = "http://www.seleniumhq.org";
-        driver.manage().timeouts().implicitlyWait(15,TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
         driver.get(baseUrl + "/");
 
         driver.findElement(By.id("menu_documentation")).click();
